@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "biopython 1.76.*",
+    "numpy 1.18.*",
+    "openbabel 2.4.1.*",
+    "python >=3.6"
+  ],
+  "name": "ccsbtools",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1602888032188,
+  "version": "1.2.2"
+}

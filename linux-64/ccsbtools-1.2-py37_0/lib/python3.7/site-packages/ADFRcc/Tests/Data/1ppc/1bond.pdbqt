@@ -1,0 +1,22 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_22  and  C14_1 
+REMARK       I    between atoms: C13_22  and  N5_24 
+REMARK       I    between atoms: C14_1  and  N2_2 
+ROOT
+ATOM      1  C13 PPC     1      -0.324   3.076  22.119  1.00 16.68     0.254 C 
+ATOM      2  N5  PPC     1       0.323   2.943  23.288  1.00 16.34    -0.319 N 
+ATOM      3  O4  PPC     1      -0.229   2.205  21.247  1.00 17.01    -0.270 OA
+ATOM      4  C27 PPC     1       1.167   1.799  23.606  1.00 17.31     0.104 C 
+ATOM      5  C23 PPC     1       0.421   4.014  24.267  1.00 16.75     0.104 C 
+ATOM      6  C26 PPC     1       0.711   1.289  24.957  1.00 18.82     0.024 C 
+ATOM      7  C25 PPC     1       0.729   2.361  26.042  1.00 18.93     0.004 C 
+ATOM      8  C24 PPC     1      -0.163   3.494  25.559  1.00 16.87     0.024 C 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C14 PPC     1      -1.166   4.329  21.876  1.00 17.08     0.164 C 
+ATOM     10  C15 PPC     1      -1.229   4.648  20.374  1.00 14.84     0.058 C 
+ATOM     11  N2  PPC     1      -2.491   4.072  22.423  1.00 17.19    -0.338 NA
+ATOM     12  H18 PPC     1      -2.967   3.279  22.042  1.00  0.00     0.164 HD
+ENDBRANCH   1   9
+TORSDOF 2

@@ -1,0 +1,70 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_1  and  C13_2 
+REMARK    2  A    between atoms: C14_1  and  C15_10 
+REMARK       I    between atoms: C14_1  and  N2_24 
+REMARK       I    between atoms: C13_2  and  N5_3 
+REMARK       I    between atoms: N2_24  and  C12_25 
+REMARK       I    between atoms: C12_25  and  C11_26 
+REMARK       I    between atoms: C11_26  and  N1_28 
+REMARK    3  A    between atoms: N1_28  and  S1_31 
+REMARK    4  A    between atoms: S1_31  and  A2_34 
+REMARK    5  A    between atoms: C15_10  and  A16_11 
+REMARK       I    between atoms: A21_14  and  C22_15 
+REMARK       I    between atoms: C22_15  and  N3_17 
+ROOT
+ATOM      1  C14 PPC     1      11.459 -14.192  -5.975  1.00 17.08     0.164 C 
+ATOM      2  N2  PPC     1      12.738 -13.715  -5.469  1.00 17.19    -0.338 N 
+ATOM      3  H18 PPC     1      13.308 -14.405  -5.022  1.00  0.00     0.164 HD
+ATOM      4  C12 PPC     1      13.207 -12.458  -5.565  1.00 19.63     0.248 C 
+ATOM      5  O3  PPC     1      12.581 -11.475  -5.980  1.00 18.44    -0.271 OA
+ATOM      6  C11 PPC     1      14.605 -12.347  -4.969  1.00 21.01     0.171 C 
+ATOM      7  N1  PPC     1      15.000 -10.999  -4.639  1.00 22.04    -0.191 NA
+ATOM      8  H10 PPC     1      14.222 -10.354  -4.583  1.00  0.00     0.141 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  C13 PPC     1      11.755 -15.316  -6.969  1.00 16.68     0.254 C 
+ATOM     10  N5  PPC     1      11.217 -15.257  -8.198  1.00 16.34    -0.319 N 
+ATOM     11  C23 PPC     1      10.212 -14.277  -8.578  1.00 16.75     0.104 C 
+ATOM     12  C27 PPC     1      11.420 -16.288  -9.206  1.00 17.31     0.104 C 
+ATOM     13  C24 PPC     1      10.760 -13.511  -9.759  1.00 16.87     0.024 C 
+ATOM     14  C25 PPC     1      10.894 -14.488 -10.916  1.00 18.93     0.004 C 
+ATOM     15  C26 PPC     1      11.864 -15.577 -10.467  1.00 18.82     0.024 C 
+ATOM     16  O4  PPC     1      12.467 -16.272  -6.641  1.00 17.01    -0.270 OA
+ENDBRANCH   1   9
+BRANCH   1  17
+ATOM     17  C15 PPC     1      10.560 -14.705  -4.839  1.00 14.84     0.058 C 
+BRANCH  17  18
+ATOM     18  A16 PPC     1       9.242 -13.964  -4.741  1.00 14.81    -0.020 A 
+ATOM     19  A17 PPC     1       8.323 -14.292  -3.761  1.00 15.57    -0.004 A 
+ATOM     20  A19 PPC     1       7.143 -13.582  -3.637  1.00 14.93     0.019 A 
+ATOM     21  A21 PPC     1       6.882 -12.511  -4.470  1.00 15.32     0.198 A 
+ATOM     22  C22 PPC     1       5.725 -11.733  -4.325  1.00 16.15     0.582 C 
+ATOM     23  A20 PPC     1       7.814 -12.197  -5.450  1.00 14.43     0.019 A 
+ATOM     24  N3  PPC     1       5.010 -11.763  -3.184  1.00 15.76    -0.254 N 
+ATOM     25  N4  PPC     1       5.383 -10.911  -5.324  1.00 15.06    -0.254 N 
+ATOM     26  H19 PPC     1       4.156 -11.248  -3.088  1.00  0.00     0.172 HD
+ATOM     27  H20 PPC     1       5.235 -12.408  -2.452  1.00  0.00     0.172 HD
+ATOM     28  H21 PPC     1       4.545 -10.373  -5.256  1.00  0.00     0.172 HD
+ATOM     29  H22 PPC     1       5.834 -10.947  -6.214  1.00  0.00     0.172 HD
+ATOM     30  A18 PPC     1       8.997 -12.899  -5.575  1.00 14.03    -0.004 A 
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+BRANCH   7  31
+ATOM     31  S1  PPC     1      16.135 -10.369  -5.673  1.00 24.57     0.244 S 
+ATOM     32  O2  PPC     1      17.357 -11.238  -5.392  1.00 26.60    -0.206 OA
+ATOM     33  O1  PPC     1      16.443  -8.910  -5.311  1.00 26.56    -0.206 OA
+BRANCH  31  34
+ATOM     34  A2  PPC     1      15.659 -10.416  -7.402  1.00 25.94     0.098 A 
+ATOM     35  A1  PPC     1      15.155 -11.533  -8.016  1.00 28.14     0.012 A 
+ATOM     36  A9  PPC     1      14.874 -11.557  -9.365  1.00 29.71     0.001 A 
+ATOM     37  A8  PPC     1      14.380 -12.694  -9.974  1.00 30.82     0.000 A 
+ATOM     38  A10 PPC     1      15.125 -10.425 -10.100  1.00 29.40     0.000 A 
+ATOM     39  A7  PPC     1      14.092 -12.656 -11.329  1.00 30.62     0.000 A 
+ATOM     40  A6  PPC     1      14.333 -11.512 -12.066  1.00 31.01     0.000 A 
+ATOM     41  A5  PPC     1      14.871 -10.394 -11.456  1.00 31.18     0.000 A 
+ATOM     42  A4  PPC     1      15.623  -9.292  -9.497  1.00 28.26     0.001 A 
+ATOM     43  A3  PPC     1      15.864  -9.286  -8.143  1.00 26.76     0.012 A 
+ENDBRANCH  31  34
+ENDBRANCH   7  31
+TORSDOF 10

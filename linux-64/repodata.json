@@ -1,0 +1,82 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "ccsbtools-1.2.2.2-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 2,
+      "depends": [
+        "biopython 1.76.*",
+        "numpy 1.18.*",
+        "openbabel 2.4.1.*",
+        "python >=3.6"
+      ],
+      "md5": "31b2206a6d47a0d92720045a63594b09",
+      "name": "ccsbtools",
+      "sha256": "eafc8a87a8a1824eeff19e2b9b9307fd95cf4f08ccb066bd8442ba9de6f30391",
+      "size": 40013092,
+      "subdir": "linux-64",
+      "timestamp": 1599798450120,
+      "version": "1.2.2.2"
+    },
+    "openbabel-2.4.1-py37_6.tar.bz2": {
+      "build": "py37_6",
+      "build_number": 6,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "cairo >=1.14.12,<2.0a0",
+        "libgcc-ng",
+        "libxml2 >=2.9.9,<2.10.0a0",
+        "python >=3.7,<3.8.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "GPLv2",
+      "md5": "c940c7ff3ff2848f177053c9b0ae65b0",
+      "name": "openbabel",
+      "sha256": "4542fd50fb9ee26c2d6692e30b2dcad97537756ee10f947ab6f8c768fcf17b51",
+      "size": 5307322,
+      "subdir": "linux-64",
+      "timestamp": 1567461586842,
+      "version": "2.4.1"
+    },
+    "pyside-1.2.4-py37_8.tar.bz2": {
+      "build": "py37_8",
+      "build_number": 8,
+      "depends": [
+        "libxslt >=1.1.34,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "qt 4.8.*"
+      ],
+      "license": "LGPL3",
+      "md5": "473eb8b85ed936fa64214d08d995fd61",
+      "name": "pyside",
+      "sha256": "bd03b8fe53a5575375d34d1922378ac79468df4c25337f847fef5c17a6381ce5",
+      "size": 6895188,
+      "subdir": "linux-64",
+      "timestamp": 1599788474952,
+      "version": "1.2.4"
+    },
+    "qt-4.8.7-2.tar.bz2": {
+      "build": "2",
+      "build_number": 2,
+      "depends": [
+        "fontconfig >=2.11.1",
+        "freetype >=2.5.2",
+        "libpng 1.6*",
+        "openssl",
+        "zlib"
+      ],
+      "license": "LGPL",
+      "md5": "daa1a7478e1c73941089e01cf4f3a16f",
+      "name": "qt",
+      "sha256": "1d28e51c67f4f9100aaaa3a0862c432178688ca23a602b640bd9a5fe8b6bbc5e",
+      "size": 35778442,
+      "subdir": "linux-64",
+      "version": "4.8.7"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

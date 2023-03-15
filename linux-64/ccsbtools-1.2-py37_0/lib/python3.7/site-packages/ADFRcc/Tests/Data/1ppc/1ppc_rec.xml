@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+    <root
+        name="1ppc_rec"
+        id="0"
+        selectionString="1ppc_rec::"
+        convolve="FTConvolveApplyMatrix"
+        file="1ppc_rec.pdbqt">
+    </root>
