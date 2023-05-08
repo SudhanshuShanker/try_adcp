@@ -1,0 +1,25 @@
+ATOM      1  MG  MG      1      21.999  -0.026  35.973  1.00 49.65      M    M  
+ATOM      2  N   MET     1      47.551  -3.004  51.474  1.00  1.00      PROT N  
+ATOM      3  CA  MET     1      47.419  -2.069  50.235  1.00  1.00      PROT C  
+ATOM      4  C   MET     1      47.231  -2.570  48.730  1.00  1.00      PROT C  
+ATOM      5  O   MET     1      47.832  -3.612  48.416  1.00  1.00      PROT O  
+ATOM      6  CB  MET     1      48.637  -1.114  50.218  1.00  1.00      PROT C  
+ATOM      7  CG  MET     1      48.543   0.055  51.231  1.00  1.00      PROT C  
+ATOM      8  SD  MET     1      48.422   1.686  50.437  1.00  1.00      PROT S  
+ATOM      9  CE  MET     1      47.340   2.417  51.697  1.00  1.00      PROT C  
+ATOM     10  HA  MET     1      46.510  -1.513  50.453  1.00  0.00      PROT H  
+ATOM     11  HB1 MET     1      48.828  -0.680  49.210  1.00  0.00      PROT H  
+ATOM     12  HB2 MET     1      49.562  -1.682  50.454  1.00  0.00      PROT H  
+ATOM     13  HG1 MET     1      49.470   0.095  51.854  1.00  0.00      PROT H  
+ATOM     14  HG2 MET     1      47.658  -0.104  51.905  1.00  0.00      PROT H  
+ATOM     15  HE1 MET     1      47.564   3.486  51.942  1.00  0.00      PROT H  
+ATOM     16  HE2 MET     1      47.295   1.795  52.629  1.00  0.00      PROT H  
+ATOM     17  HE3 MET     1      46.306   2.438  51.310  1.00  0.00      PROT H  
+ATOM     18  HT1 MET     1      46.624  -3.515  51.536  1.00  0.00      PROT H  
+ATOM     19  HT2 MET     1      47.696  -2.513  52.421  1.00  0.00      PROT H  
+ATOM     20  HT3 MET     1      48.432  -3.575  51.265  1.00  0.00      PROT H  
+ATOM     21  N   LYS     2      46.195  -1.937  48.038  1.00  1.00      PROT N  
+ATOM     22  CA  LYS     2      45.719  -2.050  46.690  1.00  1.00      PROT C  
+ATOM     23  C   LYS     2      45.550  -0.677  45.886  1.00  1.00      PROT C  
+ATOM     24  O   LYS     2      44.868   0.279  46.247  1.00  1.00      PROT O  
+ATOM     25  CB  LYS     2      4

@@ -1,0 +1,3 @@
+graft * 
+global-include *.so 
+global-include *.so.0
