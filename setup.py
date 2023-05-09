@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
      name='ADCP_bundle',
-     scripts=['bin_scripts/adcp', 'bin_scripts/adfr', 
+     scripts=['bin_scripts/adcp',  
               'bin_scripts/agfr', 'bin_scripts/agfrgui', 
               'bin_scripts/autosite', 'bin_scripts/pmv2', 
               'bin_scripts/pythonsh', 
@@ -25,7 +25,6 @@ setup(
             'prody': 'src/prody',
             'Support': 'src/Support',
             'Volume': 'src/Volume',
-            'ADFR': 'src/ADFR',
             'AppFramework': 'src/AppFramework',
             'bhtree': 'src/bhtree',
             'geomutils': 'src/geomutils',
@@ -37,7 +36,7 @@ setup(
             'UTpackages': 'src/UTpackages',},
      packages=['ADCP', 'ADFRcc', 'AutoSite', 'DejaVu2', 'gle', 
                'mglutil', 'mslib', 'opengltk', 'prody', 'Support',
-               'Volume', 'ADFR', 'AppFramework', 'bhtree', 
+               'Volume', 'AppFramework', 'bhtree', 
                'geomutils', 'mglkey', 'MolKit2', 'mslibCOM', 
                'PmvApp', 'pyglf', 'UTpackages'],
     # install_requires =['pybel==0.15.0', 'biopython==1.76','colorama','numpy==1.18.5'],

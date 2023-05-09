@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ADCP_bundle"
-version = "0.0.7"
+version = "0.0.1"
 authors = [
   { name="Sudhanshu Shanker", email="sudhanshu.bioinfo@gmail.com" },
 ]
