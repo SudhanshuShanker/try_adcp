@@ -10,7 +10,7 @@ authors = [
 ]
 description = "AutoDock CrankPep"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.6"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -18,9 +18,9 @@ classifiers = [
 ]
 dependencies = [
 "biopython>=1.76.0", 
-"numpy>=1.18.0", 
+"numpy>=1.16.0", 
 "openbabel>=2.4.1,<2.4.5",
-"python >=3.7,<3.8"
+"python >=3.6"
 ]
 
 [project.urls]
