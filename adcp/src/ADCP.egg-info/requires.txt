@@ -3,3 +3,8 @@ numpy>=1.16.0
 colorama
 ADFR@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=adfr
 CCSBLIB@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=ccsblib
+ADFRcc@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=adfrcc
+prody@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=prody
+MolKit2@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=molkit2
+mglutil@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=mglutil
+bhtree@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=bhtree
