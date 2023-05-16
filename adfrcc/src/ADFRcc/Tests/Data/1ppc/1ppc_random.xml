@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+    <root
+        name="Ligand"
+        id="99"
+        selectionString="1ppc_random::"
+        motion_2="point1: list float 1.054 1.12 25.769, point2: list float -1.166 4.329 21.876, magnitude: float 5.51194430306, name: str translation, can_be_modified: int 0, module: str AutoDockFR.FTGA, type: str GAFTMotion_Translation"
+        module="FlexTree.FTMotions"
+        motion_0="quat: list int 0 0 0 1, can_be_modified: int 1, type: str GAFTMotion_RotationAboutPointQuat, name: str rotation about a point (quat), point: list float 1.054 1.12 25.769, module: str AutoDockFR.FTGA"
+        motion="FTMotionCombiner"
+        convolve="FTConvolveApplyMatrixToCoords"
+        motion_1="boxDim: list float 1. 1. 1., can_be_modified: int 1, type: str GAFTMotion_BoxTranslation, name: str translation within a box, point: list float 0.0 0.0 0.0, module: str AutoDockFR.FTGA"
+        file="1ppc_random.pdbqt"
+        motionParams="numMotion: int 3">
+        <node
+            name="Core Ligand"
+            id="1000"
+            refNode="99"
+            selectionString="1ppc_random: :PPC1:C14,C13,N2,C15"
+            convolve="FTConvolveApplyMatrixToCoords">
+        </node>
+        <node
+            name="sidechain1"
+            id="1001"
+            refNode="1000"
+            selectionString="1ppc_random: :PPC1:N5,O4,C27,C23,C26,C25,C24"
+            module="AutoDockFR.FTGA"
+            motion="GAFTMotion_RotationAboutAxis"
+            convolve="FTConvolveApplyMatrixToCoords"
+            motionParams="point1: list float 1.054 1.12 25.769, point2: list float 1.669 1.751 27.019, angle: float 0.0, name: str rotatableBond, can_be_modified: int 1">
+        </node>
+        <node
+            name="sidechain2"
+            id="1002"
+            refNode="1000"
+            selectionString="1ppc_random: :PPC1:H18,C12,O3,C11"
+            module="AutoDockFR.FTGA"
+            motion="GAFTMotion_RotationAboutAxis"
+            convolve="FTConvolveApplyMatrixToCoords"
+            motionParams="point1: list float 1.054 1.12 25.769, point2: list float -0.354 1.492 25.746, angle: float 0.0, name: str rotatableBond, can_be_modified: int 1">
+        </node>
+        <node
+            name="sidechain3"
+            id="1003"
+            refNode="1002"
+            selectionString="1ppc_random: :PPC1:N1"
+            module="AutoDockFR.FTGA"
+            motion="GAFTMotion_RotationAboutAxis"
+            convolve="FTConvolveApplyMatrixToCoords"
+            motionParams="point1: list float -0.851 2.68 25.358, point2: list float -2.366 2.72 25.521, angle: float 0.0, name: str rotatableBond, can_be_modified: int 1">
+        </node>
+        <node
+            name="sidechain4"
+            id="1004"
+            refNode="1003"
+            selectionString="1ppc_random: :PPC1:H10,S1"
+            module="AutoDockFR.FTGA"
+            motion="GAFTMotion_RotationAboutAxis"
+            convolve="FTConvolveApplyMatrixToCoords"
+            motionParams="point1: list float -2.366 2.72 25.521, point2: list float -3.084 1.906 24.571, angle: float 0.0, name: str rotatableBond, can_be_modified: int 1">
+        </node>
+        <node
+            name="sidechain5"
+            id="1005"
+            refNode="1004"
+            selectionString="1ppc_random: :PPC1:O2,O1,A2"
+            module="AutoDockFR.FTGA"
+            motion="GAFTMotion_RotationAboutAxis"
+            convolve="FTConvolveApplyMatrixToCoords"
+            motionParams="point1: list float -3.084 1.906 24.571, point2: list float -4.214 2.749 23.695, angle: float 0.0, name: str rotatableBond, can_be_modified: int 1">
+        </node>
+        <node
+            name="sidechain6"
+            id="1006"
+            refNode="1005"
+            selectionString="1ppc_random: :PPC1:A3,A1,A4,A10,A9,A5,A8,A7,A6"
+            module="AutoDockFR.FTGA"
+            motion="GAFTMotion_RotationAboutAxis"
+            convolve="FTConvolveApplyMatrixToCoords"
+            motionParams="point1: list float -4.214 2.749 23.695, point2: list float -3.594 3.423 22.153, angle: float 0.0, name: str rotatableBond, can_be_modified: int 1">
+        </node>
+        <node
+            name="sidechain7"
+            id="1007"
+            refNode="1000"
+            selectionString="1ppc_random: :PPC1:A16"
+            module="AutoDockFR.FTGA"
+            motion="GAFTMotion_RotationAboutAxis"
+            convolve="FTConvolveApplyMatrixToCoords"
+            motionParams="point1: list float 1.054 1.12 25.769, point2: list float 1.233 -0.406 25.796, angle: float 0.0, name: str rotatableBond, can_be_modified: int 1">
+        </node>
+        <node
+            name="sidechain8"
+            id="1008"
+            refNode="1007"
+            selectionString="1ppc_random: :PPC1:A17,A18,A19,A21,C22,A20,N3,N4,H20,H19,H21,H22"
+            module="AutoDockFR.FTGA"
+            motion="GAFTMotion_RotationAboutAxis"
+            convolve="FTConvolveApplyMatrixToCoords"
+            motionParams="point1: list float 1.233 -0.406 25.796, point2: list float -0.063 -1.153 26.036, angle: float 0.0, name: str rotatableBond, can_be_modified: int 1">
+        </node>
+    </root>

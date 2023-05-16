@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mslibCOM/__init__.py
+src/mslibCOM.egg-info/PKG-INFO
+src/mslibCOM.egg-info/SOURCES.txt
+src/mslibCOM.egg-info/dependency_links.txt
+src/mslibCOM.egg-info/requires.txt
+src/mslibCOM.egg-info/top_level.txt

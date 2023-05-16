@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Volume"
+version = "0.0.1"
+authors = [
+  { name="Sudhanshu Shanker", email="sudhanshu.bioinfo@gmail.com" },
+]
+description = "Volume trial repository"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+#"biopython>=1.76",
+#"numpy>=1.16.0",
+#"openbabel==2.4.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SudhanshuShanker/try_adcp"

@@ -5,9 +5,6 @@ from setuptools import find_namespace_packages
 setup(
      name='ADFR',
      scripts=['./bin_scripts/adfr'], 
-     data_files = [
-                   ('lib',['./lib_files/libnlopt.so.0']),
-                   ],
      packages=find_namespace_packages(
         where='src',exclude='dist'),
      package_dir = {'': 'src'},

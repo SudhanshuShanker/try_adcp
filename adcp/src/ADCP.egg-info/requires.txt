@@ -2,3 +2,4 @@ biopython>=1.76
 numpy>=1.16.0
 colorama
 ADFR@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=adfr
+CCSBLIB@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=ccsblib

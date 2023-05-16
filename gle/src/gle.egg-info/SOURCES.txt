@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/gle/__init__.py
+src/gle/_gle.cpython-37m-x86_64-linux-gnu.so
+src/gle/gle.py
+src/gle/test.py
+src/gle.egg-info/PKG-INFO
+src/gle.egg-info/SOURCES.txt
+src/gle.egg-info/dependency_links.txt
+src/gle.egg-info/requires.txt
+src/gle.egg-info/top_level.txt
+src/gle/Tests/__init__.py
+src/gle/Tests/test_dependencies.py

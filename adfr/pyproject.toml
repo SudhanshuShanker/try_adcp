@@ -18,9 +18,10 @@ classifiers = [
 ]
 dependencies = [
 "biopython>=1.76", 
-"numpy>=1.16.0", 
+"numpy>=1.16.0",
+"CCSBLIB@git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=ccsblib", 
 #"openbabel==2.4.1",
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
+"Homepage" = "https://github.com/SudhanshuShanker/try_adcp"

@@ -3,7 +3,7 @@ Name: ADFR
 Version: 0.0.1
 Summary: AutoDock FlexReceptor
 Author-email: Sudhanshu Shanker <sudhanshu.bioinfo@gmail.com>
-Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Homepage, https://github.com/SudhanshuShanker/try_adcp
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent

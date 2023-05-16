@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AppFramework
+Version: 0.0.1
+Summary: AppFramework trial repository
+Author-email: Sudhanshu Shanker <sudhanshu.bioinfo@gmail.com>
+Project-URL: Homepage, https://github.com/SudhanshuShanker/try_adcp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+CCSBtools subpackage

@@ -6,7 +6,6 @@ setup(
      name='ADCP',
      scripts=['./bin_scripts/adcp'], 
      data_files = [('bin',['./bin_scripts/adcp_Linux-x86_64_1.1']),
-                   ('lib',['./lib_files/libnlopt.so.0']),
                    ],
      packages=find_namespace_packages(
         where='src',exclude='dist'),

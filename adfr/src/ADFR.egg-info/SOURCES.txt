@@ -3,7 +3,6 @@ README.md
 pyproject.toml
 setup.py
 ./bin_scripts/adfr
-./lib_files/libnlopt.so.0
 src/ADFR/AARotamers.py
 src/ADFR/BFGSsearch.py
 src/ADFR/GA.py

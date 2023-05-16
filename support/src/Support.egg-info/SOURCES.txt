@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/Support/LICENSE
+src/Support/__init__.py
+src/Support/mktestsummary.py
+src/Support/path.py
+src/Support/sitecustomize.py
+src/Support/unzip.py
+src/Support/version.py
+src/Support.egg-info/PKG-INFO
+src/Support.egg-info/SOURCES.txt
+src/Support.egg-info/dependency_links.txt
+src/Support.egg-info/requires.txt
+src/Support.egg-info/top_level.txt

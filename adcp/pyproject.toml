@@ -21,7 +21,8 @@ dependencies = [
 "numpy>=1.16.0", 
 #"openbabel==2.4.1",
 "colorama",
-"ADFR@git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=adfr"
+"ADFR@git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=adfr",
+"CCSBLIB@git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=ccsblib"
 ]
 
 [project.urls]

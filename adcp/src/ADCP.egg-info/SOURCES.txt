@@ -4,7 +4,6 @@ pyproject.toml
 setup.py
 ./bin_scripts/adcp
 ./bin_scripts/adcp_Linux-x86_64_1.1
-./lib_files/libnlopt.so.0
 src/ADCP/__init__.py
 src/ADCP/clusterADCP.py
 src/ADCP/dockq.py

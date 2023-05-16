@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mglkey/__init__.py
+src/mglkey/_mglkey.cpython-37m-x86_64-linux-gnu.so
+src/mglkey/mglkey.py
+src/mglkey.egg-info/PKG-INFO
+src/mglkey.egg-info/SOURCES.txt
+src/mglkey.egg-info/dependency_links.txt
+src/mglkey.egg-info/requires.txt
+src/mglkey.egg-info/top_level.txt
