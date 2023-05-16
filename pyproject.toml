@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ADCP_bundle"
+name = "ADCP"
 version = "0.0.1"
 authors = [
   { name="Sudhanshu Shanker", email="sudhanshu.bioinfo@gmail.com" },
 ]
-description = "A small example package"
+description = "AutoDock CrankPep"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [

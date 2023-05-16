@@ -1,44 +1,16 @@
 # setup.py
 from setuptools import setup
+from setuptools import find_namespace_packages
 
 setup(
-     name='ADCP_bundle',
-     scripts=['bin_scripts/adcp',  
-              'bin_scripts/agfr', 'bin_scripts/agfrgui', 
-              'bin_scripts/autosite', 'bin_scripts/pmv2', 
-              'bin_scripts/pythonsh', 
-              'bin_scripts/reduce_wwPDB_het_dict.txt'],
-     data_files = [('bin',['bin_scripts/autogrid4', 
-                           'bin_scripts/adcp_Linux-x86_64_1.1', 
-                           'bin_scripts/reduce']),
-                   ('lib',['lib_files/libnlopt.so.0']),
+     name='ADCP',
+     scripts=['bin_scripts/adcp'], 
+     data_files = [('bin',['./bin_scripts/adcp_Linux-x86_64_1.1']),
+                   ('lib',['./lib_files/libnlopt.so.0']),
                    ],
-     package_dir = {
-            'ADCP': 'src/ADCP',
-            'ADFRcc': 'src/ADFRcc',
-            'AutoSite': 'src/AutoSite',
-            'DejaVu2': 'src/DejaVu2',
-            'gle': 'src/gle',
-            'mglutil': 'src/mglutil',
-            'mslib': 'src/mslib',
-            'opengltk': 'src/opengltk',
-            'prody': 'src/prody',
-            'Support': 'src/Support',
-            'Volume': 'src/Volume',
-            'AppFramework': 'src/AppFramework',
-            'bhtree': 'src/bhtree',
-            'geomutils': 'src/geomutils',
-            'mglkey': 'src/mglkey',
-            'MolKit2': 'src/MolKit2',
-            'mslibCOM': 'src/mslibCOM',
-            'PmvApp': 'src/PmvApp',
-            'pyglf': 'src/pyglf',
-            'UTpackages': 'src/UTpackages',},
-     packages=['ADCP', 'ADFRcc', 'AutoSite', 'DejaVu2', 'gle', 
-               'mglutil', 'mslib', 'opengltk', 'prody', 'Support',
-               'Volume', 'AppFramework', 'bhtree', 
-               'geomutils', 'mglkey', 'MolKit2', 'mslibCOM', 
-               'PmvApp', 'pyglf', 'UTpackages'],
+     packages=find_namespace_packages(
+        where='src',exclude='dist'),
+     package_dir = {'': 'src'},
     # install_requires =['pybel==0.15.0', 'biopython==1.76','colorama','numpy==1.18.5'],
 
 

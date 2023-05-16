@@ -1,4 +1,0 @@
-graft * 
-global-include *.so 
-global-include *.so.0
-prune .git
