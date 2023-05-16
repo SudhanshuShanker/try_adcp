@@ -1,4 +1,4 @@
 biopython>=1.76
 numpy>=1.16.0
 colorama
-adfr
+ADFR@ git+https://github.com/SudhanshuShanker/try_adcp#subdirectory=adfr
