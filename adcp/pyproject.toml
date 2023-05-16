@@ -20,7 +20,8 @@ dependencies = [
 "biopython>=1.76", 
 "numpy>=1.16.0", 
 #"openbabel==2.4.1",
-"colorama"
+"colorama",
+"adfr"
 ]
 
 [project.urls]
